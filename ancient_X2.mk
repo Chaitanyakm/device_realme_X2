@@ -15,6 +15,7 @@ $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 #Official Flags
 ANCIENT_OFFICIAL=true
 ANCIENT_GAPPS=true
+EXTRA_UDFPS_ANIMATIONS=true
 
 # Inherit from X2 device
 $(call inherit-product, device/realme/X2/device.mk)
